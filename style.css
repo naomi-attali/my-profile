@@ -1,0 +1,59 @@
+/*Colors and Front*/
+
+body {
+  background:rgb(229 234 242 / 70%);
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+}
+
+#maImage {
+    display: block; 
+    margin: 0 auto; 
+    width: 210px; 
+    height: 210px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid black; 
+    box-shadow: 4px 3px 10px rgb(60 81 87 / 15%);
+}
+
+h1 {
+  color:#0ab46f;
+  font-size: 40px;
+  font-family: "Helvetica";
+}
+
+
+h2 {
+  color:royalblue;
+  font-size: 30px;
+  font-family: "Helvetica";
+}
+
+
+   div { 
+       background: white;
+       padding: 40px;
+       margin: 10px auto;         
+        width: 700px;
+        box-shadow: 4px 3px 10px rgb(60 81 87 / 15%);
+       border-radius: 2px;     
+    }     
+
+.container {
+   width: 700px;
+   margin: 40px auto;
+ }
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px auto
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
